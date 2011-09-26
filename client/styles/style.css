@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 10pt 0 5pt 0;
+  font-size: 3em;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+#links {
+  margin: 0;
+  padding: 5pt;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 1.5em;
+}
+
+#links li {
+  margin: 0;
+  padding: 0 20pt;
+  display: inline;
+  list-style: none;
+}
+
+.article {
+  text-align: left;
+}
+
+#map_canvas {
+  width: 600px;
+  height: 400px;
+  margin: 6pt auto 6pt;
+  border: 1px solid black;
+}
+
+#map_controls {
+  text-align: center;
+}

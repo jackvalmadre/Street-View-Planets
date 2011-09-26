@@ -1,0 +1,12 @@
+application: streetviewplanets
+version: 1
+runtime: go
+api_version: 2
+
+handlers:
+- url: /scripts
+  static_dir: client/scripts/
+- url: /styles
+  static_dir: client/styles/
+- url: /.*
+  script: _go_app
